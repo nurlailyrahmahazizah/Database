@@ -1,0 +1,8 @@
+-- SELECT * FROM `db_laundry`.`transaksi` LIMIT 1000;
+
+-- menampilkan data transaksi beserta nama petugas dan nama customer
+-- select t.waktu, t.id_petugas, p.nama as nama_petugas, t.diskon, c.nama as nama_customer
+-- from transaksi as t join petugas as p
+-- on t.id_petugas = p.id
+-- join customer as c 
+-- on t.id_customer = c.id
